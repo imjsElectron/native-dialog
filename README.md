@@ -7,7 +7,7 @@ Native dialog for mac than can be prompt from node
 ```.js
 const dialog = require("../index");
 
- dialog.showSync({
+ const response = dialog.showSync({
       title: "how are you",
       detail:
         "Doing this will remove the application and delete all your index associated with it on this system.",
@@ -20,6 +20,11 @@ const dialog = require("../index");
   );
 
 
+
 ```
+
+![alt dialog](.vscode/dialog.png)
+
+**response** can be `0,1,2` depending on the order of button
 
 ## Check example.js in test folder

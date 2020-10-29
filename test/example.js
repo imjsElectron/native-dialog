@@ -8,14 +8,9 @@ const assert = require("assert");
 (function() {
   console.log(
     dialog.showSync({
-      title: "how are you",
-      detail:
-        "Doing this will remove the application and delete all your index associated with it on this system.",
-      buttons: [
-        "Cancel",
-        "Uninstall, but keep index",
-        "Uninstall and delete index"
-      ]
+      title: "Product Test",
+      detail: "Please select one option",
+      buttons: ["Cancel", "Copy", "Update"]
     })
   );
   // assert.strictEqual(
