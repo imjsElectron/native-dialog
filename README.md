@@ -1,4 +1,4 @@
-# NODE-DIALOG
+# NATIVE-DIALOG
 
 Native dialog for mac than can be used from node
 
