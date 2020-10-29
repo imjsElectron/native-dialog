@@ -1,6 +1,6 @@
 # NODE-DIALOG
 
-Native dialog for mac than can be prompt from node
+Native dialog for mac than can be used from node
 
 # How To Use
 
