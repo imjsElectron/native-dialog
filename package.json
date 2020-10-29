@@ -1,0 +1,24 @@
+{
+    "name": "native-dialog",
+    "version": "1.0.0",
+    "description": "Native dialog for mac",
+    "main": "index.js",
+    "scripts": {
+        "configure": "node-gyp configure",
+        "build": "node-gyp build",
+        "test": "node --napi-modules ./test/example.js"
+    },
+
+    "keywords": [
+        "mac",
+        "node native",
+        "dialog",
+        "node-addon-api"
+    ],
+    "author": "Harshit Sinha",
+    "license": "MIT",
+    "dependencies": {
+        "bindings": "^1.5.0",
+        "node-addon-api": "^3.0.2"
+    }
+}
