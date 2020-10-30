@@ -1,6 +1,6 @@
 {
     "name": "native-dialog",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Native dialog for mac",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,6 @@
         "build": "node-gyp build",
         "test": "node --napi-modules ./test/example.js"
     },
-
     "keywords": [
         "mac",
         "node native",
