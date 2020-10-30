@@ -1,4 +1,15 @@
-# NATIVE-DIALOG
+<h1 align="center">Native Dialog</h1>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/native-dialog">
+<img src="https://img.shields.io/npm/v/native-dialog.svg" alt="version">
+</a>
+
+<a href="https://npmjs.org/package/native-dialog">
+<img src="https://img.shields.io/npm/dm/native-dialog.svg" alt="downloads">
+</a>
+</p>
+
 
 Native dialog for mac than can be used from node
 
